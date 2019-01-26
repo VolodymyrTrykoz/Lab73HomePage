@@ -1,0 +1,159 @@
+[
+  {
+    "name": {
+      "ru": "Виагра",
+      "en": "Viagra"
+    },
+    "img": "viagra",
+    "path": "viagra",
+    "client": "Pfizer",
+    "year": "2017",
+    "description": {
+       "ru": "Интерактивный и единственный в своем роде проект, раскрывающий проблему мужской потенции с новой стороны. Использовались благородные ассоциации вместо прямой констатации проблемы.",
+       "en": "An interactive and one-of-a-kind project, revealing the problem of male potency from a new side. Noble associations were used instead of a direct statement of the problem."
+    },
+    "page": {
+      "sections": [
+        {
+          "img": "port-image-1.jpg"
+        },
+        {
+          "left": {
+            "text": {
+              "ru": "У 50% мужчин возникают нарушения эрекции в возрасте до 45 лет. Из-за этого 37% мужчин в возрасте 45-60 лет совсем отказываются от половой жизни. При этом препараты для улучшения эрекции у них ассоциируются с чем-то постыдным, неэффективным и небезопасным.",
+              "en": "50% of men have erectile dysfunction at the age of 45 years. Because of this, 37% of men aged 45-60 years completely abandon their sexual life. At the same time, drugs for improving erection are associated with something shameful, ineffective and unsafe."
+            }
+          },
+          "right": {
+            "title": {
+              "ru": "Задача",
+              "en": "Task"
+            },
+            "text": {
+              "ru": "Нашей задачей было разработать современный и стильный специальный проект для фармацевтической компании Pfizer. Проект должен рассказывать о эффективном и безопасном решении проблем с потенцией при помощи препарата Виагра®.",
+              "en": "Our task was to develop a modern and stylish special project for the pharmaceutical company Pfizer. The project should tell about the effective and safe solution of problems with potency with the help of Viagra®."
+            }
+          }
+        },
+        {
+          "left": {
+            "img": "port-image-2.jpg"
+          },
+          "right": {
+            "title": {
+              "ru": "Инсайты",
+              "en": "Insights"
+            },
+            "text": {
+              "ru": "Мужчины не хотят признавать факт своего старения. Мужчины стыдятся проблем с потенцией и не хотят, чтобы об этом кто-то узнал. Мужчины стесняются приходить в аптеку и говорить, что им нужно средство от эректильной дисфункции.",
+              "en": "Men do not want to admit the fact of their aging. Men are ashamed of potency problems and do not want anyone to know about it. Men are embarrassed to come to the pharmacy and say that they need a cure for erectile dysfunction."
+            },
+            "img": "port-image-3.jpg"
+          }
+        },
+        {
+          "left": {
+            "img": "port-image-4.png"
+          },
+          "right": {
+            "title": {
+              "ru": "Цель",
+              "en": "Target"
+            },
+            "text1": {
+              "ru": "Цель проекта — донести до ЦА, что проблема потенции массовая, но это вовсе не приговор — существует простое и 100% решение — препарат Виагра® ",
+              "en": "The goal of the project is to convey to the central audience that the problem of potency is massive, but this is not a sentence at all - there is a simple and 100% solution - Viagra® "
+            },
+            "text2": {
+              "ru": "Особенность: по закону Украины о рекламе рецептурных лекарственных средств нельзя употреблять название препарата в рекламных материалах.",
+              "en": "Peculiarity: according to the law of Ukraine on advertising prescription drugs, the name of the drug cannot be used in promotional materials."
+            }
+          }
+        },
+        {
+          "left": {
+            "img": "port-image-5.jpg"
+          },
+          "right": {
+            "title": {
+              "ru": "Идея",
+              "en": "Idea"
+            },
+
+            "text": {
+              "ru": "На основании инсайтов мы определили 3 ключевых вектора проекта. Не говорим напрямую о потенции, а раскрываем проблематику через ассоциацию с потенцией: проект не должен задевать чувства мужчин. Мы не говорим о проблеме ухудшения потенции и даже не употребляем это слово, а концентрируемся на ее простом решении. Не употребляем название препарата, но выполняем проект в стилистике бренда, создавая устойчивую ассоциацию с препаратом, его качеством и премиальностью",
+              "en": "Based on insights, we identified 3 key vectors of the project. We do not speak directly about potency, but reveal problems through association with potency: the project should not hurt men’s feelings. A simple solution. We do not use the name of the drug, but we carry out a project in the style of the brand, creating a strong association with the drug, its quality and premium"
+            }
+          }
+        },
+        {
+          "img": "port-image-6.jpg"
+        },
+        {
+          "left": {
+            "text": {
+              "ru": "Все мужчины любят автомобили. Особенно дорогие. Тем более мощные. Стрелка спидометра ассоциируется с поднятием полового члена — чем больше возбуждения, желания и мощи, тем она выше.",
+              "en": "All men love cars. Especially expensive. Especially the more powerful. The speedometer arrow is associated with the raising of the penis - the more excitement, desire and power, the higher it is."
+            }
+          },
+          "right": {
+            "title": {
+              "ru": "Коробка передач",
+              "en": "Gear box"
+            },
+            "text": {
+              "ru": "Коробка передач автомобиля ассоциируется с твердостью полового члена — чем выше передача, тем он тверже. 4 передачи = 4 уровня твердости. Чем выше передача, тем выше поднимается стрелка спидометра, тем больше удовольствия.",
+              "en": "The car's gearbox is associated with the hardness of the penis - the higher the gear, the harder it is. 4 gears = 4 hardness levels. The higher the gear, the higher the speedometer needle rises, the more fun."
+            }
+          }
+        },
+        {
+          "left": {
+            "img": "port-image-7.png"
+          },
+          "right": {
+            "img": "port-image-8.jpg"
+          }
+        },
+        {
+          "img": "port-image-9.jpg"
+        },
+        {
+          "left": {
+            "text": {
+              "ru": "Интерактивная подводка к решению — это наше переосмысление скучных, длинных и страшных врачебных диагнозов. Мы в игровой форме и на примере машины описали для ЦА проблему мужской потенции и, конечно же, ее решение.",
+              "en": "The interactive approach to the solution is our rethinking of the boring, long and terrible medical diagnoses. We have described the problem of male potency and, of course, its solution for the central audience in a playful way and as an example of a machine."
+            }
+          },
+          "right": {
+            "title": {
+              "ru": "Что мы сделали?",
+              "en": "What have we achieved"
+            },
+            "text": {
+              "ru": "Мы метафорически описали все процессы, происходящие с организмом ЦА для упрощения ассоциации и ослабления негативной реакции на проблему. Переписали все понятным для обычного человека языком. Визуализировали содержание с помощью иллюстраций. Добавили интересные инфографики. Оформили в стилистике бренда.",
+              "en": "We metaphorically described all the processes that take place in the body of central audience in order to simplify the association and reduce the negative reaction to the problem. Rewritten all clear language for the average person. Visualized content with illustrations. Added interesting infographics. Designed in the style of the brand."
+            }
+          }
+        },
+        {
+          "img": "port-image-10.jpg"
+        },
+        {
+          "result": {
+            "text": {
+              "ru": "В итоге мы повысили знание препарата следи ЦА, повысили лояльность к продукту и раскрыли данный вопрос с новой стороны",
+              "en": "As a result, we have increased the knowledge of the drug, watch central audience, increased loyalty to the product and revealed this issue from a new side"
+            },
+            "stats": [
+              45,
+              3447,
+              5632,
+              141
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

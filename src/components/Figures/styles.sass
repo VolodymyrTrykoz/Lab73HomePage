@@ -1,0 +1,32 @@
+svg
+	height: 70vh
+	overflow: visible
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate3d(-50%,-50%,0.001px)
+	will-change: transform
+	display: block
+.st0
+	/*clip-path: url(#SVGID_2_)*/
+	fill: none
+	stroke: url(#normal_2_)
+	stroke-miterlimit: 10
+	overflow: visible
+	stroke-width: 1.5px
+.st1
+	/*clip-path: url(#SVGID_4_)*/
+	fill: none
+	stroke: url(#normal_4_)
+	stroke-width: 15px
+	stroke-miterlimit: 10
+	overflow: visible
+.figure-background-img
+	opacity: 0
+	visibility: hidden
+.normalShape, .blurShape, .blurMask, .normalMask
+	will-change: transform, opacity
+
+@media only screen and (max-width: 900px)
+	svg
+		display: none

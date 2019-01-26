@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/static/favicon.ico"/>
+    <title>Lab73 | Digital-агенство </title>
+    <title>lab73</title>
+    <style>
+      .posCenter {
+        position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+      }
+      .loaderCircle {
+        stroke-dasharray: 1257px; /*circleLength*/
+        stroke-dashoffset: 1257px;
+        transform: rotate(-90deg);
+        transform-origin: 50% 50%;
+      }
+      .loaderCircleProgress {
+        animation: 4s ease-out 0s 1 normal forwards running fillProgress;
+      }
+      .loaderCircleProgressBack {
+        animation: 0.7s ease-in 0s 1 normal forwards running fillProgressBack;
+      }
+      .loaderCircleComplete {
+        animation-duration: 1s;
+      }
+      .loaderDigital {
+        fill:#15344F;
+        animation: fillGreen 0.5s ease-out 5s forwards;
+      }
+      .fillGreen {
+        fill:#0CF3D0
+      }
+      .loaded {
+        transition: opacity 0.5s ease-in-out 0.5s, visibility 0.5s ease-in-out 0.5s;
+        opacity: 0;
+        visibility: hidden;
+      }
+      .visibleApp {
+        opacity: 1!important;
+      }
+      @keyframes fillProgress {
+        to {
+          stroke-dashoffset: 0
+        }
+      }
+      @keyframes fillProgressBack {
+        from {
+          stroke-dashoffset: 0
+        }
+        to {
+          stroke-dashoffset: -1257px
+        }
+      }
+      @keyframes fillGreen {
+        to {
+          fill:#0CF3D0
+        }
+      }
+      @media (max-width: 768px) {
+        .posCenter {
+          display: none;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="dist/static/css/app.56b47fb3eb6e2ac0b0d23f093ed75219.css">
+  </head>
+  <body style="background: linear-gradient(to left, #01010c, #020523);overflow: hidden;">
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <svg version="1.1" class="loaderLogo posCenter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="257.1px" height="63.8px" viewBox="0 0 257.1 63.8" style="enable-background:new 0 0 257.1 63.8;" xml:space="preserve">
+  <path class="loaderDigital" d="M6.9,50.7c3.5,0,5.3,2.3,5.3,5.7c0,3.4-1.8,5.7-5.3,5.7H2.7V50.7H6.9z M6.9,60.8
+      c2.8,0,3.8-2,3.8-4.4c0-2.4-1.1-4.4-3.8-4.4H4.1v8.8H6.9z M48,50.7v11.4h-1.4V50.7H48z M92.5,56.1v1.2c0,2.6-1.3,5.1-4.8,5.1
+      c-3.5,0-5.3-2.6-5.3-5.9c0-3.4,1.9-5.9,5.3-5.9c2.4,0,4,1.2,4.4,3.2h-1.5c-0.4-1.2-1.2-1.9-2.9-1.9c-2.7,0-3.9,2.1-3.9,4.6
+      c0,2.4,1.2,4.6,3.9,4.6c2.4,0,3.3-1.6,3.3-3.5v-0.2h-3.5v-1.3H92.5z M128.3,50.7v11.4h-1.4V50.7H128.3z M171,52h-3.7v10.1h-1.4V52
+      H162v-1.3h9V52z M210.1,58.6h-5l-1.2,3.5h-1.5l4-11.4h2.4l4,11.4h-1.5L210.1,58.6z M205.5,57.3h4.1l-1.7-5.1h-0.6L205.5,57.3z
+       M254.4,60.8v1.4h-7.9V50.7h1.4v10.1H254.4z"/>
+  <path style="fill:#CFDBE5;" d="M87.4,5h4.2v11.4h7.3L97.4,20h-10V5z M113.2,5.2h3.9l6.2,14.6h-4.3l-1.1-2.6h-5.6l-1,2.6
+      H107L113.2,5.2z M116.7,14.1l-1.6-4.1l-1.6,4.1H116.7z M130.4,5h7.7c1.9,0,3.2,0.5,4.1,1.3c0.6,0.6,1,1.4,1,2.5c0,1.7-1,2.8-2.3,3.3
+      c1.8,0.6,3,1.6,3,3.7c0,2.6-2.1,4.1-5.7,4.1h-7.7V5z M137.1,11c1.3,0,2-0.4,2-1.3c0-0.8-0.6-1.3-1.9-1.3h-2.7V11H137.1z M137.7,16.6
+      c1.3,0,2-0.5,2-1.4c0-0.8-0.6-1.3-2-1.3h-3.2v2.8H137.7z"/>
+  <path style="fill:#0CF3D0;" d="M157.8,14.3h-2l3.8-7.4V6.5h-4.4V4.9h6.5v2L157.8,14.3z M173.6,4.9v2l-1.8,1.3v0.4
+      c1.3,0.1,2.3,1,2.3,2.7c0,2-1.5,3.2-3.6,3.2c-2.1,0-3.6-1.3-3.6-3.1h1.9c0.1,0.9,0.7,1.3,1.6,1.3c1,0,1.7-0.6,1.7-1.5
+      c0-0.9-0.6-1.6-1.7-1.6c-0.4,0-0.6,0-0.9,0.1V8.2l1.8-1.3V6.5h-3.9V4.9H173.6z"/>
+  </svg>
+  <svg class="loader posCenter" width="500px" height="500px">
+      <circle class="loaderBackCircle" cx="250px" cy="250px" r="200px" stroke="#0B2F47" fill="none" stroke-width="3px"></circle>
+      <circle class="loaderCircle" cx="250px" cy="250px" r="200px" stroke="#00FFCE" fill="none" stroke-width="3px"></circle>
+    </svg>
+    <script>
+      var circle = document.querySelector(".loaderCircle"),
+          r = circle.r.baseVal.value,
+          circleLength = 2*Math.PI*r;
+      setTimeout(circleProgressStart, 100);
+      function circleProgressStart() {
+          circle.classList.add('loaderCircleProgress');
+      }
+      // circle.style.strokeDasharray = circleLength + ' ' + circleLength;
+      // circle.style.strokeDashoffset = circleLength;
+    </script>
+  </body>
+</html>

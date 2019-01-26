@@ -1,0 +1,23 @@
+body
+	background: linear-gradient(to left, #01010c, #020523)
+.container
+	width: 100%
+	height: 100vh
+	position: absolute
+	top: 0
+	left: 0
+	overflow: hidden
+	filter: blur(5px)
+	z-index: -1
+#myVideo
+	position: absolute
+	right: 0
+	bottom: 0
+	width: 100%
+	height: 100%
+	object-fit: cover
+@media only screen and (max-width: 900px)
+	body
+		background: #020523
+	video
+		display: none

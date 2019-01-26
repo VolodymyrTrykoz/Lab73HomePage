@@ -1,0 +1,18 @@
+@import "fonts"
+$browser-context: 16
+//$f-Regular: 'Formular-Regular', sans-serif
+//$f-Bold: 'Formular-Bold', sans-serif
+//$f-Light: 'Formular-Light', sans-serif
+//$f-Medium: 'Formular-Medium', sans-serif
+//$f-Black: 'Formular-Black', sans-serif
+
+@function get-vw($object)
+  $vw: (1920 * 0.01) * 1px
+  @return ($object / $vw) * 1vw
+
+@function get-vh($object)
+  $vh: (974 * 0.01) * 1px
+  @return ($object / $vh) * 1vh
+
+@function get-rem($pixels, $context: $browser-context)
+  @return #{$pixels/$context}rem
